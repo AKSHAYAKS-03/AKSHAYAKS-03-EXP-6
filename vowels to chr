@@ -1,0 +1,10 @@
+s=input("enter any str")
+v= "A,E,I,O,U,a,e,i,o,u"
+
+for i in v:
+        s= s.replace(i,"@")
+print(s)
+
+output
+enter any strhello
+h@ll@
